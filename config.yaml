@@ -4,7 +4,7 @@ languageCode: en
 title: Abdul Najah
 author: Najah
 copyright: ''
-googleAnalytics: ''
+googleAnalytics: 'G-7PKJ9RZ3YY'
 disqusShortname: ''
 metaDataFormat: yaml
 footnoteReturnLinkContents: '&#8617;'
@@ -33,37 +33,25 @@ params:
   custom_theme: ''
   customheadingFontFamily: Fraunces
   customtextFontFamily: Commissioner
-  description: A modern, beautiful, and easily configurable blog theme for Hugo.
+  description: Najah's personal website.
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
   logo: /img/blogophonic-mark-dark.png
-  mainSections:
-    - blog
-    - project
-    - talk
+  # mainSections:
+  #   - blog
+  #   - project
+  #   - talk
   navallcaps: yes
   orgLocal: Anywhere
-  orgName: RStudio
+  orgName: Abdul Najah
   sharing_image: /img/papillons.jpg
   social:
     - icon: github
       icon_pack: fab
-      url: https://github.com/apreshill/apero
-    - icon: facebook-square
-      icon_pack: fab
-      url: https://www.facebook.com/hashtag/ap%C3%A9ro
-    - icon: instagram
-      icon_pack: fab
-      url: https://www.instagram.com/explore/tags/apero/
+      url: https://github.com/AbdulNajah
     - icon: twitter
       icon_pack: fab
-      url: https://twitter.com/hashtag/apéro
-    - icon: impactstory
-      icon_pack: ai
-      url: https://impactstory.org/u/0000-0002-8082-1890
-    - icon: orcid
-      icon_pack: ai
-      url: http://orcid.org/0000-0002-8082-1890
+      url: https://twitter.com/AbdulNajah
     - icon: rss
       icon_pack: fas
       url: /blog/index.xml
@@ -71,7 +59,7 @@ params:
   socialInHeader: no
   textFontFamily: sans-serif
   theme: sky
-  twitter: apreshill
+  twitter: AbdulNajah
   utterances:
     issue_term: pathname
     label: 'comments :crystal_ball:'
@@ -82,52 +70,52 @@ taxonomies:
   category: categories
   series: series
   tag: tags
-menu:
-  footer:
-    - name: License
-      title: License
-      url: /license/
-      weight: 1
-    - name: Contact
-      title: Contact form
-      url: /contact/
-      weight: 2
-    - name: Contributors
-      title: Contributors
-      url: /contributors/
-      weight: 3
-  header:
-    - name: About
-      title: About Blogophonic
-      url: /about/
-      weight: 1
-    - name: Blog
-      title: Blog
-      url: /blog/
-      weight: 2
-    - name: Projects
-      title: Project Portfolio
-      url: /project/
-      weight: 3
-    - name: Talks
-      title: Talks
-      url: /talk/
-      weight: 4
-    - name: A collection
-      title: A collection
-      url: /collection/
-      weight: 5
-    - name: Elements
-      title: Element Page
-      url: /elements/
-      weight: 6
+# menu:
+#   footer:
+#     - name: License
+#       title: License
+#       url: /license/
+#       weight: 1
+#     - name: Contact
+#       title: Contact form
+#       url: /contact/
+#       weight: 2
+#     - name: Contributors
+#       title: Contributors
+#       url: /contributors/
+#       weight: 3
+  # header:
+    # - name: About
+    #   title: About Blogophonic
+    #   url: /about/
+    #   weight: 1
+    # - name: Blog
+    #   title: Blog
+    #   url: /blog/
+    #   weight: 2
+    # - name: Projects
+    #   title: Project Portfolio
+    #   url: /project/
+    #   weight: 3
+    # - name: Talks
+    #   title: Talks
+    #   url: /talk/
+    #   weight: 4
+    # - name: A collection
+    #   title: A collection
+    #   url: /collection/
+    #   weight: 5
+    # - name: Elements
+    #   title: Element Page
+    #   url: /elements/
+    #   weight: 6
 privacy:
   disqus:
     disable: no
   googleAnalytics:
     anonymizeIP: yes
     disable: no
-    respectDoNotTrack: yes
+    respectDoNotTrack: no
   instagram:
     disable: no
     simple: yes
